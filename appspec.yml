@@ -1,29 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /index.html
-    destination: /var/www/html/
-  - source: /about.html
-    destination: /var/www/html/
-  - source: /blog-single.html
-    destination: /var/www/html/
-  - source: /blog.html
-    destination: /var/www/html/
-  - source: /contact.html
-    destination: /var/www/html/
-  - source: /index-2.html
-    destination: /var/www/html/
-  - source: /portfolio-details.html
-    destination: /var/www/html/
-  - source: /portfolio.html
-    destination: /var/www/html/
-  - source: /services.html
-    destination: /var/www/html/
-  - source: /team.html
-    destination: /var/www/html/
-  - source: /scripts
-    destination: /var/www/html/
-  - source: /assets
+  - source: /
     destination: /var/www/html/
 hooks:
   BeforeInstall:
