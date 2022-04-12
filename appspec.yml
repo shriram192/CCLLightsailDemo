@@ -13,11 +13,13 @@ files:
     destination: /var/www/html/
   - source: /index-2.html
     destination: /var/www/html/
-  - source: /portfolio-detais.html
+  - source: /portfolio-details.html
     destination: /var/www/html/
   - source: /portfolio.html
     destination: /var/www/html/
   - source: /services.html
+    destination: /var/www/html/
+  - source: /team.html
     destination: /var/www/html/
 hooks:
   BeforeInstall:
